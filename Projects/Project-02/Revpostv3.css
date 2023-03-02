@@ -240,7 +240,7 @@ a:hover img {
 }
 
 .card:hover {
-  background: url("ariszona.jpg") no-repeat;
+  background: url("dog.jpg") no-repeat;
 }
 .card2 {
   margin-top: 1500px;
@@ -252,16 +252,26 @@ a:hover img {
 .card2:hover {
   background: url("ariszona.jpg") no-repeat;
 }
-.card3 {
-  margin-top: 100px;
-  width: 325px;
-  height: 209px;
-  background: url("trainpostcard.jpg") no-repeat;
+
+
+.card {
+  margin-top: 1500px;
+  width: 750px;
+  height: 420px;
   display: inline-block;
 }
 
-.card3:hover {
-  background: url("ariszona.jpg") no-repeat;
+.card:hover {
+  background: url("dog.jpg") no-repeat;
 }
+.card2 {
+  margin-top: 1500px;
+  width: 750px;
+  height: 420px;
+  display: inline-block;
+}
+
+.card2:hover {
+  background: url("ariszona.jpg") no-repeat;
 
 
