@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	border: solid black 5px;
+}
+
+
+/* this is where you can style the objects in your still life */
+
+.square{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+
+
+}
+
+.circle1{
+	width: 50px;
+	height: 50px;
+	background: white;
+	outline-color: black;
+	position: absolute;
+	top: 50px;
+	left: 100px;

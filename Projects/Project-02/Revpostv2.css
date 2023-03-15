@@ -149,14 +149,43 @@ video {
    transform: scale(1.1); /* Scale up the image */
 }
 
-.image-grid img:nth-child(odd):hover {
-   content: url(postcard1.jpg); /* Change the image on hover */
+.image-grid img:nth-child(1):hover {
+   content: url(lake.jpg); /* Change the image on hover */
 }
 
-.image-grid img:nth-child(even):hover {
-   content: url(postcardpicture.jpg); /* Change the image on hover */
+.image-grid img:nth-child(2):hover {
+   content: url(orange.jpg); /* Change the image on hover */
 }
-
+.image-grid img:nth-child(3):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(4):hover {
+   content: url(sb.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(5):hover {
+   content: url(wharf.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(6):hover {
+   content: url(bullocks.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(7):hover {
+   content: url(westlake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(8):hover {
+   content: url(hollywood.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(9):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(10):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(11):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(12):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
 
 
 img {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CSS Still Life 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/main2.css" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="canvas">
+
+        <!-- put your still life here -->
+        <div class="square"> </div>
+        <div class="circle"> </div>
+
+
+  <div class="cat">
+  <div class="body"></div>
+  <div class="head">
+    <div class="ear"></div>
+    <div class="ear"></div>
+    <div class="face">
+      <div class="eye"></div>
+      <div class="eye"></div>
+
+      <div class="nose"></div>
+      <div class="smile"></div>
+    </div>
+  </div>
+  <div class="tail"></div>
+  <div class="leg left"></div>
+  <div class="leg right"></div>
+</div>
+
+<div class="vase">
+	<div class="circle1"></div>
+	<div class="circle2"></div>
+	<div class="circle3"></div>
+	<div class="circle4"></div>
+	<div class="circle5"></div>
+	<div class="circle6"></div>
+	<div class="circle7"></div>
+	<div class="circle8"></div>
+	<div class="circle9"></div>
+	<div class="indent"></div>
+	<div class="flame"></div>
+ </div>
+
+ <div class="vase2"> </div>
+
+    </div>
+
+
+    <div class="sphere-group">
+  <div class="sphere"></div>
+  <div class="sphere"></div>
+  <div class="sphere"></div>
+  <div class="sphere"></div>
+  <div class="sphere"></div>
+</div>
+
+      <div class="pitcher"> 
+      	 <div class="plant"> </div>
+      	 <div class="plant"> </div>
+      	 <div class="plant"> </div>
+      	 <div class="dirt"></div>
+      	  </div>
+        
+<div class="speech-bubble">meow</div>
+
+</body>
+
+</html>

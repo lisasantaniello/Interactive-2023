@@ -142,94 +142,21 @@ video {
 .image-grid img {
    width: 100%;
    height: auto;
-   transition: all 0.5s ease; /* Add transition effect */
+   transition: all 0.5s ease; 
 }
 
 .image-grid img:hover {
-   transform: scale(1.1); /* Scale up the image */
+   transform: scale(1.1); 
 }
 
 .image-grid img:nth-child(odd):hover {
-   content: url(postcard1.jpg); /* Change the image on hover */
+   content: url(postcard1.jpg); 
 }
 
 .image-grid img:nth-child(even):hover {
-   content: url(postcardpicture.jpg); /* Change the image on hover */
+   content: url(postcard1.jpg); 
 }
 
-
-
-img {
-  margin: auto;
-  width: 100vw;
-
-  transition: transform 0.5s ease-in-out;
-}
-
-a:hover img {
-  transform: rotate(360deg);
-}
-.container {
-  font-family: "Futura", sans-serif;
-  font-size: 36px;
-  position: absolute;
-  margin-top: 4500px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 1000px;
-  background-color: pink;
-  overflow: hidden;
-}
-
-.box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  border-radius: 50%;
-  overflow: hidden;
-  transition: all 0.3s ease-out;
-  mask-image: radial-gradient(circle at center, transparent 50px, #fff 60px);
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  opacity: 0;
-  transition: all 0.3s ease-out;
-}
-
-.box:hover {
-  transform: translate(-50%, -50%) scale(0.9);
-  mask-image: radial-gradient(circle at center, transparent 70px, #fff 80px);
-}
-
-.box:hover .text {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(0.8);
-}
-
-@keyframes balls {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 
 
 .card {
@@ -273,5 +200,8 @@ a:hover img {
 
 .card2:hover {
   background: url("ariszona.jpg") no-repeat;
+
+}
+
 
 
