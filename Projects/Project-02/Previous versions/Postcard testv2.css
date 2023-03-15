@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.photo {
+  width: 500px;
+  height: 500px;
+}
+
+#text-drop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size:100px;
+  font-family: arial;
+  font-weight: 900;
+}
+
+.p {
+  opacity:0;
+  animation: drop .4s linear forwards;
+  color: #9b5de5;
+}
+
+.o {
+  opacity:0;
+  animation: drop .4s linear forwards .2s;
+  color: lightgoldenrodyellow;
+}
+
+.s {
+  opacity:0;
+  animation: drop .4s linear forwards .4s;

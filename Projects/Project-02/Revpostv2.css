@@ -133,7 +133,7 @@ video {
 
 
 .image-grid {
-  margin-top: 500px;
+  margin-top: 300px;
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-gap: 20px; 
@@ -188,109 +188,74 @@ video {
 }
 
 
-img {
-  margin: auto;
-  width: 100vw;
-
-  transition: transform 0.5s ease-in-out;
-}
-
-a:hover img {
-  transform: rotate(360deg);
-}
-.container {
-  font-family: "Futura", sans-serif;
-  font-size: 36px;
-  position: absolute;
-  margin-top: 4500px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 1000px;
-  background-color: pink;
-  overflow: hidden;
-}
-
-.box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  border-radius: 50%;
-  overflow: hidden;
-  transition: all 0.3s ease-out;
-  mask-image: radial-gradient(circle at center, transparent 50px, #fff 60px);
-}
 
 .text {
+  font-family: Futura, sans-serif; /* replace with your font */
+  font-weight: bold;
+  font-size: 32px;
+  background-color: #ffc107; /* replace with your color */
+  padding-top: 80px;
+  padding-bottom: 50px; /* add padding for space around the text */
+}
+
+.color {
+  display: flex; /* Set the display property to flex */
+  justify-content: center; /* Horizontally center the class */
+  align-items: center; /* Vertically center the class */
+  width: 100vw;
+}
+
+.color img {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.container::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  opacity: 0;
-  transition: all 0.3s ease-out;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFC107;
+  transform: translate(-25px, -25px);
+  transition: transform 0.3s ease;
+  z-index: -1;
 }
 
-.box:hover {
-  transform: translate(-50%, -50%) scale(0.9);
-  mask-image: radial-gradient(circle at center, transparent 70px, #fff 80px);
+.container:hover::after {
+  transform: translate(-25px, -25px) scale(10);
 }
 
-.box:hover .text {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(0.8);
-}
 
-@keyframes balls {
-  0% {
-    transform: translateY(0);
+/*Print CSS rules*/
+@media print and (orientation: portrait){
+
+/*display block formats images into a single column*/
+  .image-grid{
+    display: block;
   }
-  50% {
-    transform: translateY(100px);
+
+/*text drop is no longer fixed but relative so it only prints once*/
+  #text-drop{
+    position: relative;
   }
-  100% {
-    transform: translateY(0);
+
+/*print hover state image after grid container*/
+  .image-grid::after {
+     content: url("ariszona.jpg"); 
   }
-}
 
+  /*print hover state image after grid image*/
+  .train::after{
+    content: url("ariszona.jpg"); 
+  }
 
-.card {
-  margin-top: 1500px;
-  width: 750px;
-  height: 420px;
-  display: inline-block;
 }
-
-.card:hover {
-  background: url("ariszona.jpg") no-repeat;
-}
-.card2 {
-  margin-top: 1500px;
-  width: 750px;
-  height: 420px;
-  display: inline-block;
-}
-
-.card2:hover {
-  background: url("ariszona.jpg") no-repeat;
-}
-.card3 {
-  margin-top: 100px;
-  width: 325px;
-  height: 209px;
-  background: url("trainpostcard.jpg") no-repeat;
-  display: inline-block;
-}
-
-.card3:hover {
-  background: url("ariszona.jpg") no-repeat;
-}
-
 

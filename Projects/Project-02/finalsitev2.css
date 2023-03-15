@@ -1,0 +1,299 @@
+body {
+
+  background-color: white;
+
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+#text-drop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size:100px;
+  font-family: arial;
+  font-weight: 900;
+}
+
+.p {
+  opacity:0;
+  animation: drop .4s linear forwards;
+  color: #9b5de5;
+}
+
+.o {
+  opacity:0;
+  animation: drop .4s linear forwards .2s;
+  color: lightgoldenrodyellow;
+}
+
+.s {
+  opacity:0;
+  animation: drop .4s linear forwards .4s;
+  color: powderblue;
+}
+
+.t {
+  opacity:0;
+  animation: drop .4s linear forwards .6s;
+  color: yellowgreen;
+}
+
+.c {
+  opacity:0;
+  animation: drop .4s linear forwards .8s;
+  color: lightpink;
+}
+.a {
+  opacity:0;
+  animation: drop .4s linear forwards 1s;
+  color: mediumblue;
+}
+.r {
+  opacity:0;
+  animation: drop .4s linear forwards 1.2s;
+  color: orangered;
+}
+.d {
+  opacity:0;
+  animation: drop .4s linear forwards 1.4s;
+  color: springgreen;
+}
+
+.s2 {
+  opacity:0;
+  animation: drop .4s linear forwards 1.6s;
+  color: hotpink;
+}
+
+@keyframes drop {
+  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+  5% {opacity: .7;}
+  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+
+
+}
+
+
+.postcard {
+
+  perspective: 100%;
+}
+
+.postcard .front,
+.postcard .back {
+  position: absolute;
+  top: auto;
+  left: 500px;
+  width: 25%;
+  height: 25%;
+  margin-top: 250px;
+  margin-bottom: 500 px;
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.postcard .back {
+  transform: rotateY(-180deg);
+}
+
+.postcard:hover .front {
+  transform: rotateY(180deg);
+}
+
+.postcard:hover .back {
+  transform: rotateY(0deg);
+}
+
+.postcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+video {
+  width:100vw;
+  display: block;
+  margin-top: 0px; /* add margin-top */
+  margin-bottom: 250px; /* add margin-bottom */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image-grid {
+  margin-top: 300px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px; 
+}
+
+.image-grid img {
+   width: 100%;
+   height: auto;
+   transition: all 0.5s ease; /* Add transition effect */
+}
+
+.image-grid img:hover {
+   transform: scale(1.1); /* Scale up the image */
+}
+
+.image-grid img:nth-child(1):hover {
+   content: url(hollywood.jpg); /* Change the image on hover */
+}
+
+.image-grid img:nth-child(2):hover {
+   content: url(ostreet.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(3):hover {
+   content: url(water.jpeg); /* Change the image on hover */
+}
+.image-grid img:nth-child(4):hover {
+   content: url(orange.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(5):hover {
+   content: url(postoffice.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(6):hover {
+   content: url(mpark.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(7):hover {
+   content: url(beachroad.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(8):hover {
+   content: url(rtrees.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(9):hover {
+   content: url(macys.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(10):hover {
+   content: url(boats.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(11):hover {
+   content: url(jtrees.png); /* Change the image on hover */
+}
+.image-grid img:nth-child(12):hover {
+   content: url(theater.png); /* Change the image on hover */
+}
+
+
+
+.text {
+  font-family: Futura, sans-serif; /* replace with your font */
+  font-weight: bold;
+  font-size: 32px;
+  background-color: #ffc107; /* replace with your color */
+  padding-top: 80px;
+  padding-bottom: 50px; /* add padding for space around the text */
+}
+
+.color {
+  display: flex; /* Set the display property to flex */
+  justify-content: center; /* Horizontally center the class */
+  align-items: center; /* Vertically center the class */
+  width: 100vw;
+}
+
+.color img {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFC107;
+  transform: translate(-25px, -25px);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.container:hover::after {
+  transform: translate(-25px, -25px) scale(10);
+}
+
+
+.crossfade {
+  position: relative;
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+  top:50px;
+  text-align: center;
+}
+
+.crossfade img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.crossfade img:last-child {
+  opacity: 0;
+}
+
+.crossfade:hover img:first-child {
+  opacity: 0;
+}
+
+.crossfade:hover img:last-child {
+  opacity: 1;
+}
+
+
+
+
+/*Print CSS rules*/
+@media print and (orientation: portrait){
+
+/*display block formats images into a single column*/
+  .image-grid{
+    display: block;
+  }
+
+/*text drop is no longer fixed but relative so it only prints once*/
+  #text-drop{
+    position: relative;
+  }
+
+/*print hover state image after grid container*/
+  .image-grid::after {
+     content: url("train.jpg"); 
+  }
+
+  /*print hover state image after grid image*/
+  .train::after{
+    content: url("train.jpg"); 
+  }
+
+}
+

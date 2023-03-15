@@ -1,0 +1,247 @@
+body {
+
+  background-color: white;
+
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+#text-drop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size:100px;
+  font-family: arial;
+  font-weight: 900;
+}
+
+
+
+.p {
+  opacity:0;
+  animation: drop .4s linear forwards;
+  color: #9b5de5;
+}
+
+.o {
+  opacity:0;
+  animation: drop .4s linear forwards .2s;
+  color: lightgoldenrodyellow;
+}
+
+.s {
+  opacity:0;
+  animation: drop .4s linear forwards .4s;
+  color: powderblue;
+}
+
+.t {
+  opacity:0;
+  animation: drop .4s linear forwards .6s;
+  color: yellowgreen;
+}
+
+.c {
+  opacity:0;
+  animation: drop .4s linear forwards .8s;
+  color: lightpink;
+}
+.a {
+  opacity:0;
+  animation: drop .4s linear forwards 1s;
+  color: mediumblue;
+}
+.r {
+  opacity:0;
+  animation: drop .4s linear forwards 1.2s;
+  color: orangered;
+}
+.d {
+  opacity:0;
+  animation: drop .4s linear forwards 1.4s;
+  color: springgreen;
+}
+
+.s2 {
+  opacity:0;
+  animation: drop .4s linear forwards 1.6s;
+  color: hotpink;
+}
+
+@keyframes drop {
+  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+  5% {opacity: .7;}
+  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+
+}
+
+
+.postcard {
+  perspective: 100%;
+}
+
+.postcard .front,
+.postcard .back {
+  position: absolute;
+  top: auto;
+  left: 500px;
+  width: 25%;
+  height: 25%;
+  margin-top: 250px;
+  margin-bottom: 500 px;
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.postcard .back {
+  transform: rotateY(-180deg);
+}
+
+.postcard:hover .front {
+  transform: rotateY(180deg);
+}
+
+.postcard:hover .back {
+  transform: rotateY(0deg);
+}
+
+.postcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+video {
+  width:100vw;
+  display: block;
+  margin-top: 0px; /* add margin-top */
+  margin-bottom: 250px; /* add margin-bottom */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+}
+
+.image-grid img {
+   width: 100%;
+   height: auto;
+   transition: all 0.5s ease;
+}
+
+.image-grid img:hover {
+   transform: scale(1.1);
+}
+
+.image-grid img:nth-of-type(1):hover {
+   content: url(lakephoto.jpg);
+}
+
+.image-grid img:nth-of-type(2):hover {
+   content: url(orange.jpg);
+}
+
+.image-grid img:nth-of-type(3):hover {
+   content: url(beach.jpg);
+}
+
+.image-grid img:nth-of-type(4):hover {
+   content: url(olvera.jpg);
+}
+
+.image-grid img:nth-of-type(5):hover {
+   content: url(redwood.jpg);
+}
+
+.image-grid img:nth-of-type(6):hover {
+   content: url(wharf.jpg);
+}
+
+.image-grid img:nth-of-type(7):hover {
+   content: url(trees.jpg);
+}
+
+.image-grid img:nth-of-type(8):hover {
+   content: url(sb.jpg);
+}
+
+.image-grid img:nth-of-type(9):hover {
+   content: url(halfdome.jpg);
+}
+
+.image-grid img:nth-of-type(10):hover {
+   content: url(bullocks.jpg);
+}
+
+.image-grid img:nth-of-type(11):hover {
+   content: url(westlake.jpg);
+}
+
+.image-grid img:nth-of-type(12):hover {
+   content: url(hollywood.jpg);
+}
+
+
+.text {
+  font-family: Futura, sans-serif; /* replace with your font */
+  font-weight: bold;
+  font-size: 32px;
+  background-color: #ffc107; /* replace with your color */
+  padding-top: 80px;
+  padding-bottom: 50px; /* add padding for space around the text */
+}
+
+.color {
+  display: flex; /* Set the display property to flex */
+  justify-content: center; /* Horizontally center the class */
+  align-items: center; /* Vertically center the class */
+  width: 100vw;
+}
+
+.color img {
+  width: 100%;
+}
+
+/*Print CSS rules*/
+@media print and (orientation: portrait){
+
+/*display block formats images into a single column*/
+  .image-grid{
+    display: block;
+  }
+
+/*text drop is no longer fixed but relative so it only prints once*/
+  #text-drop{
+    position: relative;
+  }
+
+/*print hover state image after grid container*/
+  .image-grid::after {
+     content: url("ariszona.jpg"); 
+  }
+
+  /*print hover state image after grid image*/
+  .train::after{
+    content: url("ariszona.jpg"); 
+  }
+
+}
+
+
+

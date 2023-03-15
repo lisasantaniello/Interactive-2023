@@ -1,0 +1,296 @@
+body {
+
+  background-color: white;
+
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+#text-drop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-size:100px;
+  font-family: arial;
+  font-weight: 900;
+}
+
+.p {
+  opacity:0;
+  animation: drop .4s linear forwards;
+  color: #9b5de5;
+}
+
+.o {
+  opacity:0;
+  animation: drop .4s linear forwards .2s;
+  color: lightgoldenrodyellow;
+}
+
+.s {
+  opacity:0;
+  animation: drop .4s linear forwards .4s;
+  color: powderblue;
+}
+
+.t {
+  opacity:0;
+  animation: drop .4s linear forwards .6s;
+  color: yellowgreen;
+}
+
+.c {
+  opacity:0;
+  animation: drop .4s linear forwards .8s;
+  color: lightpink;
+}
+.a {
+  opacity:0;
+  animation: drop .4s linear forwards 1s;
+  color: mediumblue;
+}
+.r {
+  opacity:0;
+  animation: drop .4s linear forwards 1.2s;
+  color: orangered;
+}
+.d {
+  opacity:0;
+  animation: drop .4s linear forwards 1.4s;
+  color: springgreen;
+}
+
+.s2 {
+  opacity:0;
+  animation: drop .4s linear forwards 1.6s;
+  color: hotpink;
+}
+
+@keyframes drop {
+  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+  5% {opacity: .7;}
+  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+
+}
+
+
+.postcard {
+
+  perspective: 100%;
+}
+
+.postcard .front,
+.postcard .back {
+  position: absolute;
+  top: auto;
+  left: 500px;
+  width: 25%;
+  height: 25%;
+  margin-top: 250px;
+  margin-bottom: 500 px;
+  backface-visibility: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+
+.postcard .back {
+  transform: rotateY(-180deg);
+}
+
+.postcard:hover .front {
+  transform: rotateY(180deg);
+}
+
+.postcard:hover .back {
+  transform: rotateY(0deg);
+}
+
+.postcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+video {
+  width:100vw;
+  display: block;
+  margin-top: 0px; /* add margin-top */
+  margin-bottom: 250px; /* add margin-bottom */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.image-grid {
+  margin-top: 500px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px; 
+}
+
+.image-grid img {
+   width: 100%;
+   height: auto;
+   transition: all 0.5s ease; /* Add transition effect */
+}
+
+.image-grid img:hover {
+   transform: scale(1.1); /* Scale up the image */
+}
+
+.image-grid img:nth-child(1):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+
+.image-grid img:nth-child(2):hover {
+   content: url(orange.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(3):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(4):hover {
+   content: url(sb.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(5):hover {
+   content: url(wharf.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(6):hover {
+   content: url(bullocks.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(7):hover {
+   content: url(westlake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(8):hover {
+   content: url(hollywood.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(9):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(10):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(11):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+.image-grid img:nth-child(12):hover {
+   content: url(lake.jpg); /* Change the image on hover */
+}
+
+
+img {
+  margin: auto;
+  width: 100vw;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+a:hover img {
+  transform: rotate(360deg);
+}
+.container {
+  font-family: "Futura", sans-serif;
+  font-size: 36px;
+  position: absolute;
+  margin-top: 4500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 1000px;
+  background-color: pink;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  mask-image: radial-gradient(circle at center, transparent 50px, #fff 60px);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.box:hover {
+  transform: translate(-50%, -50%) scale(0.9);
+  mask-image: radial-gradient(circle at center, transparent 70px, #fff 80px);
+}
+
+.box:hover .text {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+@keyframes balls {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.card {
+  margin-top: 1500px;
+  width: 750px;
+  height: 420px;
+  display: inline-block;
+}
+
+.card:hover {
+  background: url("ariszona.jpg") no-repeat;
+}
+.card2 {
+  margin-top: 1500px;
+  width: 750px;
+  height: 420px;
+  display: inline-block;
+}
+
+.card2:hover {
+  background: url("ariszona.jpg") no-repeat;
+}
+.card3 {
+  margin-top: 100px;
+  width: 325px;
+  height: 209px;
+  background: url("trainpostcard.jpg") no-repeat;
+  display: inline-block;
+}
+
+.card3:hover {
+  background: url("ariszona.jpg") no-repeat;
+}
+
+

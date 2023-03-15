@@ -1,0 +1,114 @@
+.image-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+margin: 50px auto;
+}
+
+.train {
+position: relative;
+overflow: hidden;
+}
+
+.train img {
+display: block;
+width: 100%;
+height: auto;
+transition: transform 0.5s;
+}
+
+.train::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+opacity: 0;
+transition: opacity 0.5s;
+}
+
+.train:nth-child(1)::before {
+background-image: url(postcardback1.jpg);
+}
+
+.train:nth-child(2)::before {
+background-image: url(postcardback2.jpg);
+}
+
+.train:nth-child(3)::before {
+background-image: url(postcardback3.jpg);
+}
+
+.train:nth-child(4)::before {
+background-image: url(postcardback4.jpg);
+}
+
+.train:nth-child(5)::before {
+background-image: url(postcardback5.jpg);
+}
+
+.train:nth-child(6)::before {
+background-image: url(postcardback6.jpg);
+}
+
+.train:nth-child(7)::before {
+background-image: url(postcardback7.jpg);
+}
+
+.train:nth-child(8)::before {
+background-image: url(postcardback8.jpg);
+}
+
+.train:nth-child(9)::before {
+background-image: url(postcardback9.jpg);
+}
+
+.train:nth-child(10)::before {
+background-image: url(postcardback10.jpg);
+}
+
+.train:nth-child(11)::before {
+background-image: url(postcardback11.jpg);
+}
+
+.train:nth-child(12)::before {
+background-image: url(postcardback12.jpg);
+}
+
+.train:hover img {
+transform: scale(1.2);
+}
+
+.train:hover::before {
+opacity: 1;
+}
+
+#text-drop {
+font-family: Helvetica, sans-serif;
+font-size: 8vw;
+text-align: center;
+margin-top: 80px;
+color: white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.text {
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+text-align: justify;
+width: 80%;
+margin: 50px auto;
+}
+
+.color {
+width: 100%;
+margin-top: 50px;
+text-align: center;
+}
+
+.color img {
+max-width: 100%;
+}
