@@ -8,9 +8,14 @@ html {
   height: 100%;
 }
 
+* {
+  filter: contrast(1.2) brightness(0.95) sepia(0.15) saturate(1.2) hue-rotate(-10deg);
+}
+
+
 .element {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 700px;
   margin: 0 auto;
   background-color: red;
   border-radius: 50%;
@@ -26,8 +31,8 @@ html {
 }
 
 .element2 {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   background-color: #DDA0DD;
   border-radius: 50%;
   animation-name: shrink2;
@@ -45,21 +50,21 @@ html {
 }
 
 .element3 {
-  height: 300px;
-  width: 300px;
-  background-color: #FFB6C1;
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(to bottom, #FDECEC, #F9C6C9);
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 4s; /* set delay to match duration of element's animation */
+  animation-delay: 3.5s; /* set delay to match duration of element's animation */
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 200px;
-  left: -2px; /* distance from left edge of parent element */
+  top: 300px;
+  left: -50px; /* distance from left edge of parent element */
   opacity: 0;
 }
 
@@ -71,21 +76,63 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
+  animation-delay: 4s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 550px;
+  left: 200px; /* distance from left edge of parent element */
+  opacity: 0;
+}
+
+.element5 {
+  height: 450px;
+  width: 450px;
+  background-color: purple;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 4.5s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 400px;
+  left: -200px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
+
+.element6 {
+  height: 500px;
+  width: 500px;
+  background-color: hotpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
   animation-delay: 5s; /* set delay to match duration of element's animation */
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 350px;
-  left: -4px; /* distance from left edge of parent element */
+  top: 550px;
+  left: 0px; /* distance from left edge of parent element */
   opacity: 0;
+    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
+
 }
 
-.element5 {
-  height: 300px;
-  width: 300px;
-  background-color: purple;
+.element8 {
+  height: 550px;
+  width: 550px;
+  background: linear-gradient(to bottom, #FFF9E6, #FFE9BA);
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
@@ -96,38 +143,78 @@ html {
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 250px;
-  left: -20px; /* distance from left edge of parent element */
+  top: 700px;
+  left: 400px; /* distance from left edge of parent element */
   opacity: 0;
-    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
-
+  z-index: 3;
 }
 
-.element6 {
-  height: 300px;
-  width: 300px;
-  background-color: hotpink;
+.element9 {
+  height: 350px;
+  width: 350px;
+  background-color: #FFF0F5;
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 8s; /* set delay to match duration of element's animation */
+  animation-delay: 7s; /* set delay to match duration of element's animation */
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 150px;
-  left: -1px; /* distance from left edge of parent element */
+  top: 500px;
+  left: 100px; /* distance from left edge of parent element */
   opacity: 0;
-    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
+ z-index: 3;
+}
+
+.element10 {
+  height: 400px;
+  width: 400px;
+  background-color: purple;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+  animation-delay: 14s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 730px;
+  left: 800px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
 
 }
 
-.element8 {
-  height: 300px;
-  width: 300px;
-  background-color: #FFB6C1;
+.element11 {
+  height: 350px;
+  width: 350px;
+  background: linear-gradient(to bottom, #FFF9E6, #FFE9BA);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 11s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 300px;
+  left: 30px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
+
+.element12 {
+  height: 500px;
+  width: 500px;
+  background-color: hotpink;
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
@@ -138,16 +225,36 @@ html {
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 200px;
-  left: 20px; /* distance from left edge of parent element */
+  top: 250px;
+  left: -10px; /* distance from left edge of parent element */
   opacity: 0;
-  z-index: 3;
-}
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
 
-.element9 {
-  height: 300px;
-  width: 300px;
-  background-color: #FFF0F5;
+}
+.element13 {
+  height: 380px;
+  width: 380px;
+  background: linear-gradient(to bottom, #FDECEC, #F9C6C9);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 12.5s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 300px;
+  left: -10px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
+.element14 {
+  height: 290px;
+  width: 290px;
+  background-color: hotpink;
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
@@ -158,42 +265,21 @@ html {
   animation-fill-mode: forwards;
   animation-play-state: running;
   position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 100px;
-  left: 1px; /* distance from left edge of parent element */
-  opacity: 0;
- z-index: 3;
-}
-
-.element10 {
-  height: 300px;
-  width: 300px;
-  background-color: purple;
-  border-radius: 50%;
-  animation-name: shrink2;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 14s; /* set delay to match duration of element's animation */
-  animation-direction: alternate;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 130px;
-  left: 30px; /* distance from left edge of parent element */
+  top: 250px;
+  left: 10px; /* distance from left edge of parent element */
   opacity: 0;
     z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
 
 }
-
-.element11 {
-  height: 300px;
-  width: 300px;
+.element15 {
+  height: 320px;
+  width: 320px;
   background-color: hotpink;
   border-radius: 50%;
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 15s; /* set delay to match duration of element's animation */
+  animation-delay: 13.25s; /* set delay to match duration of element's animation */
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -205,10 +291,70 @@ html {
     z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
 
 }
+.element16 {
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 13.75s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 500px;
+  left: 250px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
+.element17 {
+  height: 400px;
+  width: 400px;
+  background-color: hotpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 14s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 400px;
+  left: 400px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
+.element18 {
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 14.5s; /* set delay to match duration of element's animation */
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  top: 20px;
+  left: 300px; /* distance from left edge of parent element */
+  opacity: 0;
+    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+
+}
 
 .element7 {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 700px;
   margin: 0 auto;
   background-color: red;
   border-radius: 50%;
@@ -271,86 +417,234 @@ html {
   background-color: #0536ab;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -200px;
   animation-name: circleshrink;
-  animation-duration: 30s;
+  animation-duration: 60s;
   animation-timing-function: ease-out;
-  animation-delay: 20s;
-  width: 150%;
-  height: 150%;
-  border-radius: 50%;
+  animation-delay: 12s;
+  width: 1500px;
+  height: 1500px;
+  border-radius: 5%;
   opacity: 0;
-  z-index: 9999; /* make sure the blue circle is on top of all other elements */
+  z-index: 3; /* make sure the blue circle is on top of all other elements */
 }
+
 
 @keyframes circleshrink {
   0% {
-    transform: scale(2.5);
     opacity: 0;
+  }
+   1% {
+    opacity: 0;
+  }
+   5% {
+    opacity: 0;
+  }
+   6% {
+    opacity: 1;
+  }
+
+
+   15% {
+    opacity: 1;
+  }
+
+   25% {
+    opacity: 1;
   }
 
   50% {
-    transform: scale(1);
     opacity: 1;
   }
     100% {
-    transform: scale(1);
     opacity: 1;
   }
 }
 
 
 .square1 {
-  width: 50px;
-  height: 50px;
-  background-color: lightblue;
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
   position: absolute;
-  animation: fly 5s linear infinite;
-  opacity: .8;
+  animation: fly 4s ease-in-out infinite;
+  animation-delay: 13.5s;
+  opacity: 0;
+  z-index: 4;
 }
 
 .square2 {
   width: 50px;
   height: 50px;
-  top: 200px;
-  background-color: lightblue;
+  top: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
   position: absolute;
-  animation: fly 5s linear infinite;
-  opacity: .8;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 13.5s;
+  opacity: 0;
+  z-index: 4;
 }
 .square3 {
-  width: 50px;
-    top: 700px;
-  height: 50px;
-  background-color: lightblue;
+  width: 200px;
+    top: 100px;
+  height: 200px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
   position: absolute;
-  animation: fly 5s linear infinite;
-  opacity: .8;
+  animation: fly 6s ease-in-out infinite;
+  animation-delay: 13.5s;
+  opacity: 0;
+  z-index: 4;
 }
 .square4 {
-    top: 500px;
+    top: 200px;
   width: 50px;
   height: 50px;
-  background-color: lightblue;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
   position: absolute;
-  animation: fly 5s linear infinite;
-  opacity: .8;
+  animation: fly 8s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
 }
 .square5 {
   width: 50px;
   height: 50px;
-  background-color: lightblue;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
   position: absolute;
-  animation: fly 5s linear infinite;
-  opacity: .8;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square6 {
+  width: 100px;
+    top: 800px;
+  height: 100px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 2s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square7 {
+    top: 300px;
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square8 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 3s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+
+.square9 {
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 4s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+
+.square10 {
+  width: 50px;
+  height: 50px;
+  top: 900px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square11 {
+  width: 200px;
+    top: 750px;
+  height: 200px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 6s ease-in-out infinite;
+  animation-delay: 15s;
+  opacity: 0;
+  z-index: 4;
+}
+.square12 {
+    top: 120px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 8s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square13 {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 15s;
+  opacity: 0;
+  z-index: 4;
+}
+.square14 {
+  width: 50px;
+    top: 380px;
+  height: 50px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 7s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+}
+.square15 {
+    top: 200px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 8s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
+
+}
+.square16 {
+  width: 120px;
+  height: 120px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 7s ease-in-out infinite;
+  animation-delay: 14s;
+  opacity: 0;
+  z-index: 4;
 }
 
 @keyframes fly {
   0% {
-    left: -50px;
+    left: -300%;
+    opacity: 0;
   }
   100% {
-    left: 100%;
+    left: 200%;
+    opacity: 1;
   }
 }
 
