@@ -22,7 +22,7 @@ html {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: relative; /* set position relative so child elements can be positioned absolutely */
+  position: relative; 
 }
 
 .element2 {
@@ -33,14 +33,14 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 3s; /* set delay to match duration of element's animation */
+  animation-delay: 3s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 100px;
-  left: -10px; /* distance from left edge of parent element */
+  left: -10px; 
   opacity: 0;
 }
 
@@ -52,14 +52,14 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 3.5s; /* set delay to match duration of element's animation */
+  animation-delay: 3.5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 300px;
-  left: -50px; /* distance from left edge of parent element */
+  left: -50px; 
   opacity: 0;
 }
 
@@ -71,14 +71,14 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 4s; /* set delay to match duration of element's animation */
+  animation-delay: 4s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 550px;
-  left: 200px; /* distance from left edge of parent element */
+  left: 200px; 
   opacity: 0;
 }
 
@@ -90,16 +90,15 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 4.5s; /* set delay to match duration of element's animation */
-  animation-direction: alternate;
+  animation-delay: 4.5s; 
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 400px;
-  left: -200px; /* distance from left edge of parent element */
+  left: -200px; 
   opacity: 0;
-    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 1; 
 
 }
 
@@ -111,16 +110,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 5s; /* set delay to match duration of element's animation */
+  animation-delay: 5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 550px;
-  left: 0px; /* distance from left edge of parent element */
+  left: 0px; 
   opacity: 0;
-    z-index: 1; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 1; 
 
 }
 
@@ -132,14 +131,13 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 6s; /* set delay to match duration of element's animation */
+  animation-delay: 6s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
-  top: 700px;
-  left: 400px; /* distance from left edge of parent element */
+  position: absolute; 
+  left: 400px; 
   opacity: 0;
   z-index: 3;
 }
@@ -152,14 +150,14 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 7s; /* set delay to match duration of element's animation */
+  animation-delay: 7s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 500px;
-  left: 100px; /* distance from left edge of parent element */
+  left: 100px; 
   opacity: 0;
  z-index: 3;
 }
@@ -172,16 +170,16 @@ html {
   animation-name: shrink2;
   animation-duration: 8s;
   animation-timing-function: ease-out;
-  animation-delay: 14s; /* set delay to match duration of element's animation */
+  animation-delay: 14s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 730px;
-  left: 800px; /* distance from left edge of parent element */
+  left: 800px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+  z-index: 3; 
 
 }
 
@@ -193,16 +191,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 11s; /* set delay to match duration of element's animation */
+  animation-delay: 11s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 300px;
-  left: 30px; /* distance from left edge of parent element */
+  left: 30px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 
@@ -214,16 +212,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 12s; /* set delay to match duration of element's animation */
+  animation-delay: 12s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 250px;
-  left: -10px; /* distance from left edge of parent element */
+  left: -10px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element13 {
@@ -234,16 +232,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 12.5s; /* set delay to match duration of element's animation */
+  animation-delay: 12.5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 300px;
-  left: -10px; /* distance from left edge of parent element */
+  left: -10px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element14 {
@@ -254,16 +252,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 13s; /* set delay to match duration of element's animation */
+  animation-delay: 13s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 250px;
-  left: 10px; /* distance from left edge of parent element */
+  left: 10px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element15 {
@@ -274,16 +272,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 13.25s; /* set delay to match duration of element's animation */
+  animation-delay: 13.25s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 200px;
-  left: 10px; /* distance from left edge of parent element */
+  left: 10px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element16 {
@@ -294,16 +292,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 13.75s; /* set delay to match duration of element's animation */
+  animation-delay: 13.75s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 500px;
-  left: 250px; /* distance from left edge of parent element */
+  left: 250px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element17 {
@@ -314,16 +312,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 14s; /* set delay to match duration of element's animation */
+  animation-delay: 14s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 400px;
-  left: 400px; /* distance from left edge of parent element */
+  left: 400px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 .element18 {
@@ -334,16 +332,16 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 14.5s; /* set delay to match duration of element's animation */
+  animation-delay: 14.5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  position: absolute; /* set position absolute so it can be positioned relative to parent element */
+  position: absolute; 
   top: 20px;
-  left: 300px; /* distance from left edge of parent element */
+  left: 300px; 
   opacity: 0;
-    z-index: 3; /* add z-index to ensure element is layered above element2 and element3 */
+    z-index: 3; 
 
 }
 
@@ -363,7 +361,7 @@ html {
   animation-play-state: running;
   opacity: 0;
   z-index: 2;
-  position: relative; /* set position relative so child elements can be positioned absolutely */
+  position: relative; 
 }
 
 
@@ -421,7 +419,7 @@ html {
   height: 1500px;
   border-radius: 5%;
   opacity: 0;
-  z-index: 3; /* make sure the blue circle is on top of all other elements */
+  z-index: 3; 
 }
 
 
