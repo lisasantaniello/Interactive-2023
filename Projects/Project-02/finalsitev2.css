@@ -126,8 +126,8 @@ body {
 video {
   width:100vw;
   display: block;
-  margin-top: 0px; /* add margin-top */
-  margin-bottom: 250px; /* add margin-bottom */
+  margin-top: 0px; 
+  margin-bottom: 250px; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -143,66 +143,66 @@ video {
 .image-grid img {
    width: 100%;
    height: auto;
-   transition: all 0.5s ease; /* Add transition effect */
+   transition: all 0.5s ease; 
 }
 
 .image-grid img:hover {
-   transform: scale(1.1); /* Scale up the image */
+   transform: scale(1.1); 
 }
 
 .image-grid img:nth-child(1):hover {
-   content: url(hollywood.jpg); /* Change the image on hover */
+   content: url(hollywood.jpg); 
 }
 
 .image-grid img:nth-child(2):hover {
-   content: url(ostreet.png); /* Change the image on hover */
+   content: url(ostreet.png); 
 }
 .image-grid img:nth-child(3):hover {
-   content: url(water.jpeg); /* Change the image on hover */
+   content: url(water.jpeg); 
 }
 .image-grid img:nth-child(4):hover {
-   content: url(orange.png); /* Change the image on hover */
+   content: url(orange.png); 
 }
 .image-grid img:nth-child(5):hover {
-   content: url(postoffice.png); /* Change the image on hover */
+   content: url(postoffice.png); 
 }
 .image-grid img:nth-child(6):hover {
-   content: url(mpark.png); /* Change the image on hover */
+   content: url(mpark.png); 
 }
 .image-grid img:nth-child(7):hover {
-   content: url(beachroad.png); /* Change the image on hover */
+   content: url(beachroad.png); 
 }
 .image-grid img:nth-child(8):hover {
-   content: url(rtrees.png); /* Change the image on hover */
+   content: url(rtrees.png); 
 }
 .image-grid img:nth-child(9):hover {
-   content: url(macys.png); /* Change the image on hover */
+   content: url(macys.png); 
 }
 .image-grid img:nth-child(10):hover {
-   content: url(boats.png); /* Change the image on hover */
+   content: url(boats.png); 
 }
 .image-grid img:nth-child(11):hover {
-   content: url(jtrees.png); /* Change the image on hover */
+   content: url(jtrees.png); 
 }
 .image-grid img:nth-child(12):hover {
-   content: url(theater.png); /* Change the image on hover */
+   content: url(theater.png); 
 }
 
 
 
 .text {
-  font-family: Futura, sans-serif; /* replace with your font */
+  font-family: Futura, sans-serif; 
   font-weight: bold;
   font-size: 32px;
-  background-color: #ffc107; /* replace with your color */
+  background-color: #ffc107; 
   padding-top: 80px;
-  padding-bottom: 50px; /* add padding for space around the text */
+  padding-bottom: 50px; 
 }
 
 .color {
-  display: flex; /* Set the display property to flex */
-  justify-content: center; /* Horizontally center the class */
-  align-items: center; /* Vertically center the class */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   width: 100vw;
 }
 

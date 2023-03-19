@@ -1,0 +1,1526 @@
+body {
+  height: 100%;
+  background-color: #0536ab;
+  display: flex;
+}
+
+html {
+  height: 100%;
+}
+
+.element {
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: red;
+  border-radius: 50%;
+  animation-name: shrink1;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: relative; 
+}
+
+.element2 {
+  height: 500px;
+  width: 500px;
+  background-color: #DDA0DD;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 3s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 100px;
+  left: -10px; 
+  opacity: 0;
+}
+
+.element3 {
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(to bottom, #FDECEC, #F9C6C9);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 3.5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 300px;
+  left: -50px; 
+  opacity: 0;
+}
+
+.element4 {
+  height: 300px;
+  width: 300px;
+  background-color: #FFF0F5;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 4s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 550px;
+  left: 200px; 
+  opacity: 0;
+}
+
+.element5 {
+  height: 450px;
+  width: 450px;
+  background-color: purple;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 4.5s; 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: -200px; 
+  opacity: 0;
+    z-index: 1; 
+
+}
+
+.element6 {
+  height: 500px;
+  width: 500px;
+  background-color: hotpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 550px;
+  left: 0px; 
+  opacity: 0;
+    z-index: 1; 
+
+}
+
+.element8 {
+  height: 550px;
+  width: 550px;
+  background: linear-gradient(to bottom, #FFF9E6, #FFE9BA);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 6s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  left: 400px; 
+  top: 400;
+  opacity: 0;
+  z-index: 3;
+}
+
+.element9 {
+  height: 350px;
+  width: 350px;
+  background-color: #FFF0F5;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 7s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 500px;
+  left: 100px; 
+  opacity: 0;
+ z-index: 3;
+}
+
+.element10 {
+  height: 400px;
+  width: 400px;
+  background-color: purple;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+  animation-delay: 14s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 730px;
+  left: 800px; 
+  opacity: 0;
+  z-index: 3; 
+
+}
+
+.element11 {
+  height: 350px;
+  width: 350px;
+  background: linear-gradient(to bottom, #FFF9E6, #FFE9BA);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 11s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 300px;
+  left: 30px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.element12 {
+  height: 500px;
+  width: 500px;
+  background-color: hotpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 12s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 250px;
+  left: -10px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.element13 {
+  height: 380px;
+  width: 380px;
+  background: linear-gradient(to bottom, #FDECEC, #F9C6C9);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 12.5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 300px;
+  left: -10px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.element14 {
+  height: 290px;
+  width: 290px;
+  background-color: palevioletred;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 13s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 450px;
+  left: 60px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.element15 {
+  height: 320px;
+  width: 320px;
+  background-color: lightpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 13.25s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 800px;
+  left: 10px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.element16 {
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 13.75s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 500px;
+  left: 250px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.element17 {
+  height: 400px;
+  width: 400px;
+  background-color: hotpink;
+  border-radius: 50%;
+  animation-name: shrink2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 14s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 400px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: -100px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15.25s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: -150px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle3 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: -200px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle4 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15.3s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: -250px; 
+  opacity: 0;
+    z-index: 3; 
+}
+
+.circle5 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15.6s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: -400px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle6 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15.8s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: -450px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle7 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 15.9s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: -500px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle8 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: -550px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle9 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.1s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 50px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle10 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.2s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 0px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle11 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: -50px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle12 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.2s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: -100px; 
+  opacity: 0;
+    z-index: 3; 
+}
+
+.circle13 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.3s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 250px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle14 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 200px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle15 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.6s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 150px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle16 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.7s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 100px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+  .circle17 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.8s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 450px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle18 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.9s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 400px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle19 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 350px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle20 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 16.1s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 300px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+    .circle21 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 650px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle22 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.1s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 600px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle23 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.2s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 550px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle24 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.3s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 500px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+    .circle25 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 850px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle26 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.4s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 800px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle27 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 750px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle28 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.6s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 700px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+    .circle29 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.7s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 1050px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle30 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.8s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 1000px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle31 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.9s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 950px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle32 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 900px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+    .circle33 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.1s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 1250px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle34 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 1200px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle35 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 18.2s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 1150px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle36 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 18.3s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 1100px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+    .circle37 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 18.5s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  animation: glitter-pulse 2s ease-in-out infinite;
+  top: -200px;
+  left: 1450px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+
+.circle38 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 18.6s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 0px;
+  left: 1400px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+.circle39 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 18.7s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 200px;
+  left: 1350px; 
+  opacity: 0;
+    z-index: 3; 
+
+}
+
+.circle40 {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(to bottom, #D6B0EE, #8E72C7);
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 17.8s; 
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  position: absolute; 
+  top: 400px;
+  left: 1300px; 
+  opacity: 0;
+    z-index: 3; 
+  }
+
+.element7 {
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: red;
+  border-radius: 50%;
+  animation-name: shrink7;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 8s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  opacity: 0;
+  z-index: 2;
+  position: relative; 
+}
+
+
+@keyframes shrink1 {
+  0% {
+    transform: scale(2.5);
+    background-color: red;
+    opacity: 1;
+
+  }
+  100% {
+    transform: scale(.7);
+    background-color: lightpink;
+    opacity: 1;
+  }
+}
+
+
+@keyframes shrink2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(.3);
+    opacity: 0;
+
+  }
+}
+
+@keyframes shrink7 {
+  0% {
+    transform: scale(2.5);
+    background-color: red;
+    opacity: 1;
+
+  }
+  100% {
+    transform: scale(1);
+    background-color: lightpink;
+    opacity: 1;
+  }
+}
+
+.blue-circle {
+  background-color: #0536ab;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  animation-name: circleshrink;
+  animation-duration: 60s;
+  animation-timing-function: ease-out;
+  animation-delay: 12s;
+  width: 1500px;
+  height: 1500px;
+  border-radius: 5%;
+  opacity: 0;
+  z-index: 3; 
+}
+
+
+@keyframes circleshrink {
+  0% {
+    opacity: 0;
+  }
+   1% {
+    opacity: 0;
+  }
+   5% {
+    opacity: 0;
+  }
+   6% {
+    opacity: 1;
+  }
+
+
+   15% {
+    opacity: 1;
+  }
+
+   25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 1;
+  }
+}
+
+
+.square1 {
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 4s ease-in-out infinite;
+  animation-delay: 18s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.square2 {
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 18.1s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square3 {
+  width: 200px;
+    top: 100px;
+  height: 200px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 6s ease-in-out infinite;
+  animation-delay: 18.7s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square4 {
+    top: 200px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 8s ease-in-out infinite;
+  animation-delay: 19s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square5 {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out infinite;
+  animation-delay: 18.5s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square6 {
+  width: 100px;
+    top: 800px;
+  height: 100px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 2s ease-in-out 10s;
+  animation-delay: 18.25s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square7 {
+    top: 300px;
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out 10s;
+  animation-delay: 18.2s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square8 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 3s ease-in-out 10s;
+  animation-delay: 18.2s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.square9 {
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 4s ease-in-out 10s;
+  animation-delay: 18.3s;
+  opacity: 0;
+  z-index: 4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.square10 {
+  width: 50px;
+  height: 50px;
+  top: 900px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out 10s;
+  animation-delay: 18.4s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square11 {
+  width: 200px;
+    top: 750px;
+  height: 200px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 6s ease-in-out 10s;
+  animation-delay: 18.1s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square12 {
+    top: 120px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 8s ease-in-out 10s;
+  animation-delay: 18s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square13 {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 5s ease-in-out 10s;
+  animation-delay: 19s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square14 {
+  width: 50px;
+    top: 380px;
+  height: 50px;
+   background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 7s ease-in-out 10s;
+  animation-delay: 18s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.square15 {
+    top: 200px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 8s ease-in-out 10s;
+  animation-delay: 17.8s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.square16 {
+  width: 120px;
+  height: 120px;
+  background-image: linear-gradient(to bottom right, #87CEFA, #ADD8E6);
+  position: absolute;
+  animation: fly 7s ease-in-out 10s;
+  animation-delay: 17.9s;
+  opacity: 0;
+  z-index: 4;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@keyframes fly {
+  0% {
+    left: -300%;
+    opacity: 0;
+  }
+  100% {
+    left: 200%;
+    opacity: 1;
+  }
+}
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  25% {
+    opacity: 1;
+    filter: brightness(150%);
+    transform: scale(1.2);
+  }
+  50% {
+    opacity: 0;
+    filter: brightness(200%);
+    transform: scale(1.3);
+  }
+  75% {
+    opacity: 1;
+    filter: brightness(150%);
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    filter: brightness(100%);
+    transform: scale(1);
+  }
+}
+
+
+
+
+
