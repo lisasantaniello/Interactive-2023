@@ -177,16 +177,12 @@ body {
   transform: rotate(-45deg);
   box-shadow: 2px 2px 2px gray;
   z-index: 0;
-
-
-/* define the wag animation */
   animation-name: wag;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
-/* keyframes for the wag animation */
 @keyframes wag {
   0% {
     transform: rotate(-45deg);
@@ -321,7 +317,6 @@ body {
     z-index: 3;
   }
 
-  /* Additional plant styles */
   .plant:nth-child(2) {
     top: 220px;
     left: 50px;

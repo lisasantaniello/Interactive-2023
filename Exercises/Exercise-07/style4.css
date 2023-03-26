@@ -52,7 +52,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 3.5s; 
+  animation-delay: 3.2s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -71,7 +71,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 4s; 
+  animation-delay: 3.5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -90,7 +90,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 4.5s; 
+  animation-delay: 4s; 
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-play-state: running;
@@ -110,7 +110,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 5s; 
+  animation-delay: 4.5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -131,7 +131,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 6s; 
+  animation-delay: 5s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -151,7 +151,7 @@ html {
   animation-name: shrink2;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
-  animation-delay: 7s; 
+  animation-delay: 6s; 
   animation-direction: alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
