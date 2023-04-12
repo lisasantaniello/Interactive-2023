@@ -1,0 +1,293 @@
+body {
+  background: yellowgreen;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.shape{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightpink;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shape2{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: mintcream;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shape3{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cone {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid #8B4513;
+      position: relative;
+       margin-left: auto;
+        margin-right: auto;
+    }
+
+@media screen and (min-width: 600px) and 
+(orientation: landscape){
+
+  body{
+  background-color:lightskyblue;
+}
+.container{
+  flex-direction: row;
+  display: none;
+}
+
+.watermelon {
+  overflow: hidden;
+  height: 500px;
+  margin-top: 20rem;
+}
+.watermelon__outside {
+  border: 20px solid rgba(131, 183, 30, 0.8);
+  box-sizing: border-box;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -150px;
+  height: 300px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: relative;
+}
+.watermelon__inside {
+  border: 10px solid rgba(167, 204, 97, .8);
+  width: 260px;
+  margin: 0 auto;
+  margin-top: -180px;
+  box-sizing: border-box;
+  height: 260px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.watermelon__pulp {
+  background-color: rgba(253,41,41, 0.7);
+  width: 240px;
+  margin: 0 auto;
+  margin-top: -180px;
+  height: 240px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.watermelon__pip {
+  background-color: #666666;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  border-radius: 50% 1px 50% 50%;
+  transform: rotate(-40deg);
+}
+
+.watermelon__pip:nth-child(2) {
+  bottom: 90px;
+  left: 40px;
+}
+
+.watermelon__pip:nth-child(4) {
+  bottom: 70px;
+  left: 115px;
+}
+.watermelon__pip:nth-child(5) {
+  bottom: 90px;
+  left: 185px;
+}
+
+.watermelon__pip:nth-child(3) {
+  bottom: 30px;
+  left: 150px; 
+}
+
+@media screen and (min-width: 768px) and 
+(orientation: landscape){
+
+  body{
+  background-color:lightskyblue;
+}
+.container{
+  flex-direction: row;
+  display: none;
+}
+
+.watermelon {
+  overflow: hidden;
+  height: 150px;
+  margin-top: 7rem;
+}
+.watermelon__outside {
+  border: 20px solid rgba(131, 183, 30, 0.8);
+  box-sizing: border-box;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -150px;
+  height: 300px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: relative;
+}
+.watermelon__inside {
+  border: 10px solid rgba(167, 204, 97, .8);
+  width: 260px;
+  margin: 0 auto;
+  margin-top: -180px;
+  box-sizing: border-box;
+  height: 260px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.watermelon__pulp {
+  background-color: rgba(253,41,41, 0.7);
+  width: 240px;
+  margin: 0 auto;
+  margin-top: -180px;
+  height: 240px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.watermelon__pip {
+  background-color: #666666;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  border-radius: 50% 1px 50% 50%;
+  transform: rotate(-40deg);
+}
+
+.watermelon__pip:nth-child(2) {
+  bottom: 90px;
+  left: 40px;
+}
+
+.watermelon__pip:nth-child(4) {
+  bottom: 70px;
+  left: 115px;
+}
+.watermelon__pip:nth-child(5) {
+  bottom: 90px;
+  left: 185px;
+}
+
+.watermelon__pip:nth-child(3) {
+  bottom: 30px;
+  left: 150px; 
+}
+
+@media screen and (min-width: 768px) and 
+(orientation: landscape){
+
+  body{
+  background-color:lightpink;
+}
+
+.container{
+  flex-direction: row;
+  display: none;
+}
+
+.watermelon {
+  overflow: hidden;
+  height: 150px;
+  margin-top: 7rem;
+  display: none;
+  }
+
+.circle {
+  border-radius: 50%;
+} 
+
+.cookie {
+  width:500px;
+  height: 500px;
+  border: 5px solid #222;
+  background-color: #b46d3c;
+  margin: 150px auto 0; 
+
+
+}
+
+.choc {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #222;
+}
+
+#c1 {
+  left: 30%;
+  top: 5%;
+}
+
+#c2 {
+  left: 70%;
+  top: 15%;
+}
+
+#c3 {
+  left: 40%;
+  top: 16%;
+}
+
+#c4 {
+  left: 15%;
+  top: 16%;
+}
+
+#c5 {
+  left: 50%;
+  top: 35%;
+}
+
+#c6 {
+  left: 17%;
+  top: 22%;
+}
+
+#c7 {
+  left: 77%;
+}
+
+
