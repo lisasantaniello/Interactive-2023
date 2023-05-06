@@ -1,0 +1,218 @@
+body{
+	background-color: black;
+	background-size: cover;
+}
+@keyframes up-down{
+	from{
+	  transform: translatey(30px);
+	}
+	to{
+	  transform: translatey(-60px);
+	}
+  }
+
+.container-0{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+}
+
+.container-1{
+	position: absolute;
+	left: 1200px;
+	top: 150px;
+}
+.container-2{
+	position: absolute;
+	left: 650px;
+	top: 0px;
+}
+.container-3{
+	position: absolute;
+	left: 90px;
+	top: 560px;
+}
+
+.container-4{
+	position: absolute;
+	left: 20px;
+	top:850px;
+}
+.container-5{
+	position: absolute;
+	left: 650px;
+	top:150px;
+}
+
+
+.effect-1{
+	position: absolute;
+	left: 1050px;
+	top:120px;
+	opacity: 100%;
+	transition: opacity 0.5s linear;
+}
+
+.effect-2{
+	position: absolute;
+	left: 1050px;
+	top:120px;
+	opacity: 0%;
+	transition: opacity 0.5s linear;
+}
+
+.effect-1 img:hover, .effect-1:focus img{
+	opacity: 0%;
+
+}
+.effect-2 img:hover, .effect-2:focus img{
+	opacity: 100%;
+
+}
+
+
+.container-7{
+	position: absolute;
+	left: 950px;
+	top:400px;
+}
+.container-8{
+	position: absolute;
+	left: 650px;
+	top:450px;
+}
+.container-9{
+	position: absolute;
+	left: 650px;
+	top:770px;
+}
+.container-10{
+	position: absolute;
+	left: 1250px;
+	top:600px;
+}
+.container-11{
+	position: absolute;
+	left: 650px;
+	top:1100px;
+}
+.container-12{
+	position: absolute;
+	left: 350px;
+	top:890px;
+}
+.container-13{
+	position: absolute;
+	left: 920px;
+	top:950px;
+}
+.container-14{
+	position: absolute;
+	left: 1250px;
+	top:810px;
+}
+.container-15{
+	position: absolute;
+	scale: 70%;
+	left: 1330px;
+	top:1100px;
+}
+.container-16{
+	position: absolute;
+	scale: 80%;
+	left: 810px;
+	top:1200px;
+}
+.container-17{
+	position: absolute;
+	scale: 80%;
+	left: 1050px;
+	top:1200px;
+}
+.container-18{
+	position: absolute;
+	left: 100px;
+	top:1050px;
+}
+
+.container-0 img:hover, .container-0:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+
+
+.container-1 img:hover, .container-1:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-2 img:hover, .container-2:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-3 img:hover, .container-3:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+
+.container-4 img:hover, .container-4:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-5 img:hover, .container-5:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-6 img:hover, .container-6:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-7 img:hover, .container-7:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-8 img:hover, .container-8:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-9 img:hover, .container-9:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-10 img:hover, .container-10:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-11 img:hover, .container-11:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-12 img:hover, .container-12:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-13 img:hover, .container-13:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-14 img:hover, .container-14:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-15 img:hover, .container-15:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-16 img:hover, .container-16:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-17 img:hover, .container-17:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+.container-18 img:hover, .container-18:focus img{
+	position: absolute;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+
+.link:hover { cursor : url(/Users/seyoungchun/Desktop/frozine/images/png/cursor_chara.png) 20 30, auto; }

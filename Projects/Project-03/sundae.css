@@ -1,0 +1,111 @@
+body {
+  background-color: #1C854C;
+  margin: 0;
+  padding: 0;
+  font-family: 'DIN', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1C854C;
+}
+
+
+
+header {
+width: 100vw;
+}
+
+p {
+  margin: 0;
+  top: 72px;
+  padding: 96px;
+  box-sizing: border-box;
+  position: relative;
+    font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #FFC300;
+  z-index: 1;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  border: 30px lightpink;
+  animation: animate 0.25s infinite;
+  position: relative;
+}
+
+#fourscoopcone {
+  position: absolute;
+  top: 100;
+  left: 550;
+  z-index: 6;
+  width: 700px;
+}
+#threescoopcone {
+  position: absolute;
+  top: 100;
+  left: 550;
+  z-index: 5;
+  width: 700px;
+}
+
+#twoscoopcone {
+  position: absolute;
+   top: 150;
+  left: 550;
+  z-index: 4;
+   width: 700px;
+}
+
+#onescoopcone {
+  position: absolute;
+  top: 250;
+  left: 550;
+  z-index: 3;
+   width: 700px;
+}
+
+#zeroscoopcone {
+  position: absolute;
+ top: 490;
+  left: 550;
+  z-index: 2;
+   width: 700px;
+}
+
+
+.icecreamguy {
+  position: absolute;
+  top: 400;
+  left: 450px;
+  animation: pop 0.5s ease-in-out infinite alternate;
+  width: 100px;
+  z-index: -10;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+#sprinklepic {
+  width: 300px;
+  margin-top: 600px;
+}
+
+
+@keyframes animate {  
+   0% { 
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>👅</text></svg>") 16 0,auto; 
+  }
+  100% { 
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>👅</text></svg>") 16 0,auto; 
+  }
+}

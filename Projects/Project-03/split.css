@@ -1,0 +1,273 @@
+body{
+	background-color: rgb(206, 221, 216);
+	background-image: url(texture.jpg);
+	background-size: cover;
+	animation: fadein 5s ease s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes up-down{
+	from{
+	  transform: translatey(30px);
+	}
+	to{
+	  transform: translatey(-60px);
+	}
+  }
+
+.container-1{
+	position: fixed;
+	scale: 100%;
+	left: 80%;
+	top: 10%;
+	animation: up-down 1.4s infinite ease-in-out alternate;	
+}
+
+
+.container-2{
+	position: fixed;
+	scale: 100%;
+	left: 30%;
+	top: 20%;
+	animation: up-down 1.9s infinite ease-in-out alternate;	
+}
+
+.container-3{
+	position: fixed;
+	scale: 100%;
+	left: 40%;
+	top: 0%;
+	animation: up-down 1.4s infinite ease-in-out alternate;	
+}
+
+.container-4{
+	position: fixed;
+	scale: 100%;
+	left: 90%;
+	top: 40%;
+	animation: up-down 0.9s infinite ease-in-out alternate;	
+}
+
+.container-5{
+	position: fixed;
+	scale: 100%;
+	left: 60%;
+	top: 50%;
+	animation: up-down 1.4s infinite ease-in-out alternate;	
+}
+
+.container-6{
+	position: fixed;
+	scale: 100%;
+	left: 20%;
+	top: 60%;
+	animation: up-down 4.4s infinite ease-in-out alternate;	
+}
+
+.container-7{
+	position: fixed;
+	scale: 100%;
+	left: 6%;
+	top: 45%;
+	animation: up-down 2.4s infinite ease-in-out alternate;	
+}
+
+.container-8{
+	position: fixed;
+	scale: 100%;
+	left: 75%;
+	top: 60%;
+	animation: up-down 3.4s infinite ease-in-out alternate;	
+}
+
+.container-9{
+	position: fixed;
+	scale: 100%;
+	left: 0%;
+	top: 7%;
+	animation: up-down 1.4s infinite ease-in-out alternate;	
+}
+.container-10{
+	position: absolute;
+	scale: 100%;
+	left: 60%;
+	top: 10%;
+	animation: up-down 5.4s infinite ease-in-out alternate;	
+}
+
+.container-11{
+	position: absolute;
+	scale: 20%;
+	left: 40%;
+	top: 0%;
+	animation: up-down 1.4s infinite ease-in-out alternate;	
+}
+
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+
+	.container-1:hover img, .container-1:focus img{
+		transform: scale(4.1);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	
+	.container-2:hover img, .container-2:focus img{
+		transform: scale(3.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-3:hover img, .container-3:focus img{
+		transform: scale(4.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-4:hover img, .container-4:focus img{
+		transform: scale(2.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-5:hover img, .container-5:focus img{
+		transform: scale(3.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-6:hover img, .container-6:focus img{
+		transform: scale(2.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-7:hover img, .container-7:focus img{
+		transform: scale(2.5);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-8:hover img, .container-8:focus img{
+		transform: scale(4.0);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-9:hover img, .container-9:focus img{
+		transform: scale(3.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	.container-10:hover img, .container-10:focus img{
+		transform: scale(1.9);
+		opacity:0.3;
+		filter: blur(200)
+	}
+	
+	.container-11:hover img, .container-11:focus img{
+		transform: scale(2.4);
+		opacity:0.3;
+		filter: blur(200)
+	}
+
+	.animate-charcter{
+  	 text-transform: uppercase;
+ 	 background-image: linear-gradient(
+ 	   -225deg,
+  	  #719eff 0%,
+ 	   #ffffff 29%,
+ 	   #87dbff 67%,
+  	  #fffa78 100%
+ 	 );
+ 	 background-size: auto auto;
+ 	 background-clip: border-box;
+ 	 background-size: 200% auto;
+  		color: #fff;
+  		background-clip: text;
+ 	 text-fill-color: transparent;
+ 	 -webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		animation: textclip 2s linear infinite;
+  		display: inline-block;
+      font-size: 300px;
+	  stroke: #000000;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.title-word {
+	animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+	--color-1: #DF8453;
+	--color-2: #3D8DAE;
+	--color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+	--color-1: #DBAD4A;
+	--color-2: #ACCFCB;
+	--color-3: #17494D;
+  }
+  
+  .title-word-3 {
+	--color-1: #ACCFCB;
+	--color-2: #E4A9A8;
+	--color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+	--color-1: #3D8DAE;
+	--color-2: #DF8453;
+	--color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+	0%    {color: var(--color-1)}
+	32%   {color: var(--color-1)}
+	33%   {color: var(--color-2)}
+	65%   {color: var(--color-2)}
+	66%   {color: var(--color-3)}
+	99%   {color: var(--color-3)}
+	100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+	display: grid;
+	place-items: center;  
+	text-align: center;
+	height: 100vh
+  }
+  
+  .title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 5.5vw;
+	text-transform: uppercase;
+  }
+
+  .text-container {
+	font-family: monospace;
+	text-align: center;
+	font-size: 1.3vw;
+  }
