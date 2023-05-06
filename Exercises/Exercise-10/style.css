@@ -1,0 +1,72 @@
+body {
+  font-family: Futura, sans-serif;
+  background-image: url('color4.png');
+  background-size: cover;
+  color: white;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.month h1 {
+  font-size: 8em;
+  margin: 0;
+}
+
+.month h2 {
+  font-size: 6em;
+  margin: 0;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 100px; 
+  background-color: #FFDB58;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.weekdays div {
+  width: calc(100% / 10);
+  text-align: center;
+  font-weight: bold;
+  padding: 50px;
+  margin: 50;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.days div {
+  width: 11.28%;
+  text-align: center;
+  padding: 6px;
+  transition: background-color 0.3s ease;
+  padding-left: 30px;
+}
+
+
+.days div:hover {
+   background-color: #BFF30B;
+  transform: rotateY(360deg);
+  transition: transform 3s ease;
+}
